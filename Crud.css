@@ -1,0 +1,124 @@
+table {
+  width: 100%;
+  background-color: rgb(148, 137, 137);
+}
+
+.f1 {
+  background-color: #cad6b6;
+
+}
+
+.f2 {
+  background-color: #f2f5ec;
+
+}
+
+#h1 {
+  text-align: center;
+  color: #425ca3;
+  margin-top: 3%;
+  font-size: xx-large;
+}
+
+table1 {
+  border-color: #f5f8f4;
+  background-color: #ad313b;
+  text-align: end;
+}
+
+.editbttn {
+  width: 30%;
+  background-color: #e2e0d4;
+  color: #2b0105;
+  padding: 20px 20px;
+  margin-left: 50px;
+  border: solid;
+  border-radius: 8px;
+  cursor: pointer;
+
+
+
+}
+
+.deletebttn {
+  width: 30%;
+  background-color: #e2e0d4;
+  color: #2b0105;
+  padding: 20px 20px;
+  margin-right: 10px;
+  border: solid;
+  border-radius: 8px;
+  cursor: pointer;
+
+  margin-left: 18%;
+}
+
+.table {
+  border-collapse: collapse;
+  border-color: rgb(240, 227, 232);
+
+}
+
+table.list {
+  width: 100%;
+  background-color: rgb(17, 19, 19);
+}
+
+td {
+  border: 1px dotted black #e8ebe6;
+  text-align: left;
+  padding: 18px;
+  background: #cfd8da;
+}
+
+th {
+  border: 1px dotted black #161a14;
+  text-align: center;
+  padding: 18px;
+  background: #af909c;
+  font-weight: bold;
+  font-style: italic;
+  font-size: x-large;
+}
+
+tr:nth-child(even),
+table.list thead>tr {
+  background-color: #dddddd;
+}
+
+input[type=text],
+input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  color: rgb(170, 32, 32);
+  text-align: left;
+  text-decoration-color: #ad313b;
+  margin: 8px 0;
+  display: inline-block;
+
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 10%;
+  background-color: #e2e0d4;
+  color: #f0142a;
+  padding: 20px 20px;
+  margin: 8px 0;
+
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+form div.form-action-buttons {
+  text-align: center;
+
+}
+
+a {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #161638;
+  margin-right: 4px;
+}

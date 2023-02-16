@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        CRUD
+    </title>
+    <link rel="stylesheet" href="Crud.css">
+</head>
+
+<body>
+    <h1 id="h1"> ✺ Employee Portal ✺ </h1>
+    <fieldset class="f1">
+        <legend>
+            <h1 style="color: rgb(129, 26, 26); ">Employee Registration</h1>
+        </legend>
+        <table class="table1">
+            <tr>
+                <td>
+                    <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                        <!--preventDefault() method prevent the default behaviour of html Form-->
+
+                        <div>
+                            <label>Id</label>
+                            <input type="number" name="ID" id="id" min="0" required>
+                            <p id="error1" style="display: none; color: rgb(241, 9, 9);">Id already exist !!</p>
+                        </div>
+                        <div>
+                            <label>Name</label>
+                            <input type="text" name="Name" id="name" required>
+                            <p id="error2" style="display: none; color: rgb(241, 9, 9);">Please Enter Valid Username!!
+                            </p>
+                        </div>
+                        <div>
+                            <label>Age</label>
+                            <input type="number" name="Age" id="age" min="19" max="60" required>
+                        </div>
+                        <div>
+                            <label>Gender</label>
+                            <select id="gender" required>
+                                <option selected></option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div><br>
+                        <div class="form-action-buttons">
+                            <input type="submit" value="Submit">
+                        </div>
+
+                    </form>
+                </td>
+        </table>
+    </fieldset>
+
+    <fieldset class="f2">
+        <h1 style="text-align: center;color: coral;">🟃Employee Details🟃</h1>
+        <table id="table2">
+
+            <td>
+                <table class="list" id="employeeList">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Gender</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+            </tr>
+    </fieldset>
+
+    </table>
+    <script src="Crud.js"></script>
+</body>
+
+</html>
